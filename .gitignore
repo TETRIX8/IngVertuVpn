@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+bot.env
+*.secret
+secrets/
+credentials/
+
+# User data and runtime state
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+backups/
+logs/
+*.log
+
+# SSH, TLS and generated keys
+.ssh/
+keys/
+*.pem
+*.key
+*.crt
+*.cer
+
+# Python/build artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/

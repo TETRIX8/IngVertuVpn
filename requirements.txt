@@ -1,0 +1,4 @@
+aiogram
+aiohttp
+paramiko
+qrcode[pil]
